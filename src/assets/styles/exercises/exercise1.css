@@ -1,0 +1,13 @@
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block__title{
+    color: black;
+    font-size: 20px;
+}
