@@ -1,15 +1,11 @@
-html, body{
-    width: 100%;
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-}
-
-.app{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

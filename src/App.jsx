@@ -9,6 +9,8 @@ import Ex4 from './pages/Ex4.jsx';
 import Ex5 from './pages/Ex5.jsx';
 import Ex6 from './pages/Ex6.jsx';
 import Ex7 from './pages/Ex7.jsx';
+import Ex8 from './pages/Ex8.jsx';
+import Ex9 from './pages/Ex9.jsx';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
               }
             />
             <Route path="/exercise7" element={<Ex7 />} />
+            <Route path="/exercise8" element={<Ex8 />} />
+            <Route path="/exercise9" element={<Ex9 />} />
           </Routes>
         </div>
       </Router>
